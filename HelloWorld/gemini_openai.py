@@ -16,7 +16,7 @@ client = OpenAI(
 response = client.chat.completions.create(
     model="gemini-3-flash-preview",
     messages=[
-        {"role":"user", "content":"Hello my name is Sujal , how are you?"}
+        {"role":"user", "content":"Hello my name is vichanshu , how are you?"}
     ]
 )
 

@@ -64,9 +64,6 @@ SYSTEM_PROMPT= f"""
 """
 
 
-
-
-
 response=client.chat.completions.create(
     model="gemini-2.5-flash",
     messages=[
